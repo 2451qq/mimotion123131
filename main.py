@@ -145,7 +145,7 @@ class MiMotion():
                 min_step, max_step = max_step, min_step
         except Exception as e:
             print(f'步数范围初始化失败: {e}，使用默认值')
-            min_step, max_step = 18000, 25000
+            min_step, max_step = 20000, 35000
 
         step = str(random.randint(min_step, max_step))
 
